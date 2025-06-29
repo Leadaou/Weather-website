@@ -1,0 +1,54 @@
+/* General Reset */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #dbeafe, #eff6ff);
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation */
+.navbar {
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Main Content */
+main h1 {
+    font-size: 2.5rem;
+    color: #0d6efd;
+}
+
+main p.lead {
+    font-size: 1.2rem;
+    color: #333;
+}
+
+/* Weather Info Container */
+#weather-info {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    min-width: 300px;
+}
+
+/* Spinner */
+#spinner {
+    width: 3rem;
+    height: 3rem;
+}
+
+/* Footer */
+footer {
+    margin-top: 50px;
+    background-color: #e9ecef;
+    color: #333;
+}
+
+form {
+    transition: box-shadow 0.3s ease;
+}
+form:hover {
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+}
